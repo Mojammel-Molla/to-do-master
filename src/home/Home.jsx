@@ -1,13 +1,22 @@
-import Todo from '../components/todo/Todo';
+import CompleteTasks from '../components/complete-tasks/CompleteTasks';
+import OngoingTasks from '../components/ongoing-tasks/OngoingTasks';
+import TodoTasks from '../components/todo-tasks/TodoTasks';
 
 const Home = () => {
   return (
-    <div className="flex justify-around bg-green-500">
-      <div>
-        <Todo />
+    <div className="flex justify-around h-screen bg-indigo-300 ">
+      <div
+        className="
+      "
+      >
+        <TodoTasks />
       </div>
-      <div>3</div>
-      <div>2</div>
+      <div>
+        <OngoingTasks />
+      </div>
+      <div>
+        <CompleteTasks />
+      </div>
     </div>
   );
 };

@@ -8,7 +8,7 @@ const Navbar = () => {
       </div>
       <div>
         <Link to="/log-in">
-          <button className="bg-red-400 px-5 py-2 rounded-md font-semibold">
+          <button className="bg-indigo-600 text-white px-5 py-2 rounded-md font-semibold">
             Log In
           </button>
         </Link>
